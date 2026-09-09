@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: analytics
+    database: "MYDATA"
+    schema: "MYSCHEMA1"
+    quoting:
+      identifier: true
+    tables:
+      - name: EMPLOYEES
