@@ -1,6 +1,1 @@
-SELECT
-    ID,
-    NAME,
-    SALARY
-FROM {{ source('analytics', 'EMPLOYEES') }}
-
+SELECT ID, NAME, SALARY, EMAIL FROM {{ source('analytics', 'EMPLOYEES') }}
