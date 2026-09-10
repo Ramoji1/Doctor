@@ -8,3 +8,4 @@ sources:
       identifier: true
     tables:
       - name: EMPLOYEES
+      - name: EMPLOY
