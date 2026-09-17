@@ -7,4 +7,4 @@ sources:
     quoting:
       identifier: true
     tables:
-      - name: EMPLOY
+      - name: employees
