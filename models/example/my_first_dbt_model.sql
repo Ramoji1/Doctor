@@ -1,1 +1,0 @@
-SELECT ID, NAME, SALARY, EMAIL FROM {{ source('analytics', 'EMPLOYEES') }}
